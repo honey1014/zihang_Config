@@ -27,6 +27,7 @@ i: &i {type: http, behavior: ipcidr, interval: 86400, format: text}
 # 代理组相关
 g: &g {type: select, proxies: [节点切换Proxy, 手动选择A, 自动选择Auto, 故障转移Fallback, 香港节点HongKong_两元店, 香港节点HongKong_三分, 香港节点HongKong_魔戒, 香港节点HongKong_云洞, 美国节点America_两元店, 美国节点America_三分, 美国节点America_魔戒, 美国节点America_云洞, 日本节点Japan_两元店, 日本节点Japan_三分, 日本节点Japan_魔戒, 日本节点Japan_云洞, 台湾节点TaiWan, 狮城节点Singapore, 其他节点Others, DIRECT]}
 # 远程订阅相关     #测速地址1：http://www.apple.com/library/test/success.html   #测速地址2:http://www.gstatic.com/generate_204
+#interval: 1800 --1800秒更新一次订阅        #health-check内interval: 600 --间隔600秒根据他测速地址测试延迟
 p: &p {type: http, interval: 1800, benchmark-timeout: 5, health-check: {enable: true, url: 'http://www.gstatic.com/generate_204', interval: 600}}
 # 订阅引用相关
 url: &url {type: select, use: [Subscribe_LiangYuanDian,Subscribe_SanFenJiChang,Subscribe_MoJie,Subscribe_GWYunDon]}

@@ -1,0 +1,51 @@
+# === OpenAI ===
+openai.com
+api.openai.com
+chat.openai.com
+platform.openai.com
+auth0.openai.com
+
+# === Claude (Anthropic) ===
+claude.ai
+api.anthropic.com
+
+# === Perplexity AI ===
+perplexity.ai
+api.perplexity.ai
+
+# === Google Gemini / Bard ===
+gemini.google.com
+bard.google.com
+ai.google
+
+# === Hugging Face ===
+huggingface.co
+api-inference.huggingface.co
+
+# === Poe (Quora AI 聚合平台) ===
+poe.com
+api.poe.com
+
+# === DeepL 翻译 AI ===
+deepl.com
+api.deepl.com
+
+# === ElevenLabs AI 语音合成 ===
+elevenlabs.io
+api.elevenlabs.io
+
+# === Midjourney（依赖 Discord）===
+midjourney.com
+discord.com
+cdn.discordapp.com
+
+# === Stability AI / ClipDrop ===
+stability.ai
+clipdrop.co
+
+# === Microsoft Copilot 专属域 ===
+copilot.microsoft.com
+api.copilot.microsoft.com
+bingapis.microsoft.com
+gpt.microsoft.com
+speech.platform.bing.com
